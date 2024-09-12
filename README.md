@@ -1,12 +1,14 @@
 # SQL
 
-# Social Media Addiction can be a crippling disease affecting millions every year.
+# Question 1
 
-# We need to identify people who may fall into that category.
+Social Media Addiction can be a crippling disease affecting millions every year.
 
-# Write a query to find the people who spent a higher than average amount of time on social media.
+We need to identify people who may fall into that category.
 
-# Provide just their first names alphabetically so we can reach out to them individually.
+Write a query to find the people who spent a higher than average amount of time on social media.
+
+Provide just their first names alphabetically so we can reach out to them individually.
 
 with CTE AS
   (SELECT FIRST_NAME, AVG(MEDIA_TIME_MINUTES) AS USER_AVG_TIME
