@@ -72,9 +72,15 @@ Key Concepts: Joins, Conditional Aggregation, Rounding
 This query calculates the confirmation rate by dividing the number of confirmed messages by the total number of requested confirmation messages. Users with no requested confirmation messages have a default confirmation rate of 0. The result is rounded to two decimal places.
 
 Key Concepts Demonstrated
+
 CTEs (Common Table Expressions): Many queries use CTEs to improve readability and break down complex calculations.
+
 Joins: Various types of joins (INNER, LEFT) are used to combine data from multiple tables.
+
 Aggregation: Functions like SUM(), COUNT(), and AVG() are used extensively for data summarization.
+
 Window Functions: The use of DENSE_RANK() for ranking results within specific partitions.
+
 Conditional Logic: CASE statements are utilized for dynamic calculations based on specific conditions.
+
 Subqueries: Employed to perform calculations on aggregated data and use the result in further operations.
